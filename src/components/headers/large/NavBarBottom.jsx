@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const NavBarBottom = () => {
   return (
     <div className="hidden lg:block w-10/12 m-auto">
-      <div className="flex justify-between space-x-0 items-center text-gray-500 text-sm">
+      <div className="flex justify-between space-x-0 items-center text-gray-400 text-sm">
         <NavLink
           to={`/`}
           className={({ isActive }) => (isActive ? "text-red-500 " : "")}
