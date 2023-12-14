@@ -25,12 +25,13 @@ const NavBar = () => {
           </div>
         </div>
       </div>
+
       <div className="w-full sticky top-0 drop-shadow-xl bg-white ">
         <NavBarBottom />
       </div>
 
       {/* Small Screen */}
-      <div>
+      <div className="w-full sticky top-0 drop-shadow-xl bg-white">
         <MobileNav />
       </div>
     </>

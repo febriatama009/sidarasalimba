@@ -9,7 +9,7 @@ const MobileNav = () => {
     setMenuOpen(!isMenuOpen);
   };
   return (
-    <div className="block lg:hidden w-full sticky top-0 drop-shadow-xl bg-white">
+    <div className="block lg:hidden">
       {/* Top */}
       <div className="border-b-2 border-gray-200">
         <div className="flex justify-between py-6 w-10/12 mx-auto items-center">
