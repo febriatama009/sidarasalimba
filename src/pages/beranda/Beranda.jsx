@@ -1,10 +1,11 @@
 import React from "react";
-import { Hero } from "./section";
+import { Hero, TentangSidarasalimba } from "./section";
 
 const Beranda = () => {
   return (
-    <div className="text-lg text-red-500 font-bold">
+    <div className="grid gap-y-16">
       <Hero />
+      <TentangSidarasalimba />
     </div>
   );
 };
