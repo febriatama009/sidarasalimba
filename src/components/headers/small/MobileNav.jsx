@@ -16,18 +16,12 @@ const MobileNav = () => {
           <div>
             <img src={"/logo-sidarasalimba.svg"} alt="Your SVG" width={124} />
           </div>
-          <CgMenuRight
-            size={24}
-            onClick={toggleMenu}
-            className={({ isActive }) =>
-              isActive ? "bg-red-500" : "text-red-500"
-            }
-          />
+          <button onClick={toggleMenu} className="hover:text-red-500">
+            <CgMenuRight size={24} />
+          </button>
         </div>
       </div>
-      {isMenuOpen && (
-        <NavBarMobile toggleMenu={toggleMenu} className="opacity-100" />
-      )}
+      {isMenuOpen && <NavBarMobile toggleMenu={toggleMenu} />}
     </div>
   );
 };
