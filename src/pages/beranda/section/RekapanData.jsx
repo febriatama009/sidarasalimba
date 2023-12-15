@@ -3,7 +3,7 @@ import React from "react";
 const RekapanData = () => {
   return (
     <div className="w-10/12 items-center mx-auto grid gap-y-8">
-      <div className="text-red-500 text-xl font-bold">
+      <div className="text-red-500 text-xl mb-12 font-bold">
         Data Rekapan Sidarasalimba
       </div>
       <div className="grid lg:flex gap-6">

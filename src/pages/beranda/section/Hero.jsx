@@ -11,7 +11,7 @@ const Hero = () => {
           <img
             src="/logo-sidarasalimba.svg"
             alt="Logo Sidarasalimba"
-            class="lg:h-16 max-w-full"
+            className="lg:h-16 max-w-full"
           />
         </div>
       </div>

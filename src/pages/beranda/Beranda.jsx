@@ -1,5 +1,14 @@
 import React from "react";
-import { Hero, RekapanData, TentangSidarasalimba } from "./section";
+import {
+  Hero,
+  RekapanData,
+  TentangSidarasalimba,
+  Grafik,
+  TabelRankKab,
+  TabelRankKec,
+  Galeri,
+  StatistikPengunjung,
+} from "./section";
 
 const Beranda = () => {
   return (
@@ -7,6 +16,11 @@ const Beranda = () => {
       <Hero />
       <TentangSidarasalimba />
       <RekapanData />
+      <Grafik />
+      <TabelRankKab />
+      <TabelRankKec />
+      <Galeri />
+      <StatistikPengunjung />
     </div>
   );
 };
